@@ -20,6 +20,24 @@ bash install.sh
 ## Usage
 Some examples are put under `LightGBM-3.3.5/np_fair_test` and `xgboost/np_fair_test` folder.
 
+All experimental results within the paper can be reproduced with the following commands:
+
+```bash
+python ./test_adult_fair/adult_fair_lgb_random_para.py
+python ./test_adult_fair/adult_fair_xgb_random_para.py
+
+python ./test_compas_fair/compas_fair_lgb_random_para.py
+python ./test_compas_fair/compas_fair_xgb_random_para.py
+
+python ./test_credit_np/credit_np_lgb_random_para.py
+python ./test_credit_np/credit_np_xgb_random_para.py
+
+python ./test_drybean_np/drybean_np_lgb_random_para.py
+python ./test_drybean_np/drybean_np_xgb_random_para.py
+```
+
+
+
 ## Future work
 
 
